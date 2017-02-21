@@ -7,7 +7,7 @@ end
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'bcrypt'
+gem 'bcrypt-ruby', '>= 3.0.1', :platform => :ruby
 gem 'rails', '~> 5.0.1'
 gem 'devise'
 # Use sqlite3 as the database for Active Record
