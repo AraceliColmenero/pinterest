@@ -19,6 +19,7 @@ class PinsController < ApplicationController
   # GET /pins/1
   # GET /pins/1.json
   def show
+    @p_id = current_user.id
   end
 
   # GET /pins/new
