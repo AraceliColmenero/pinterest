@@ -24,6 +24,7 @@ class PinsController < ApplicationController
   # GET /pins/new
   def new
     @pin = Pin.new
+    @pin.user_id = current_user.id
   end
 
   # GET /pins/1/edit

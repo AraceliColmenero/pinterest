@@ -12,6 +12,7 @@
   <% end %>
 
 <div class="form-group">
+ <%= f.hidden_field :id_user, :value=>pin.id_user %>
   <div class="field">
     <%= f.label :name, "Nombre"%>
     <%= f.text_field :name, :class => 'form-control', :placeholder => 'Nombre del pin' %>
