@@ -21,7 +21,7 @@
 <br>
 <% if user_signed_in? %>
 <%= link_to 'New Pin', new_pin_path %>
-<% end -%>
+<% end %>
 </div>
 <script type="text/javascript">
 var $container = $('#container');
@@ -29,7 +29,7 @@ var $container = $('#container');
     columWidth: 200,
     itemSelector: '.item'
   });
-  
+
   $(window).load(function(){
      var $container = $('#container');
   $container.masonry({
